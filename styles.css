@@ -1492,6 +1492,26 @@ a:hover.back-to-top {
 	background-color: #f9fafc;
 }
 
+/* Max-width width 320px */
+@media (max-width: 320px) {
+	.header h1{
+		padding-top: 30px;
+	}
+}
+
+/* Min-width width 321px */
+@media (min-width: 321px) and (max-width: 375px) {
+	.header h1{
+		padding-top: 30px;
+	}
+}
+
+/* Min-width width 376px */
+@media (min-width: 376px) and (max-width: 425px) {
+	.header h1{
+		padding-top: 30px;
+	}
+}
 
 /*****************************/
 /*     20. Media Queries     */
@@ -1573,7 +1593,7 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header .header-content {
-		padding-top: 8rem;
+		padding-top: 15rem;
 	}
 	/* end of header */
 
